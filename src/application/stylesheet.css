@@ -1,0 +1,235 @@
+#root{
+	-fx-background-color: #282828;
+	-fx-padding: 10;
+}
+
+#space{
+	-fx-padding: 25 0 0 0;
+}
+
+#thumbnail{
+	-fx-pref-height: 240px;
+	-fx-max-height: 220px;
+	-fx-border-radius: 12px;
+	-fx-border-width: 5px;
+	-fx-background-radius: 10px 10px 0px 0px;
+}
+
+#border{
+	-fx-padding: 10 0 0 0;
+	-fx-background-color: #202020;
+	-fx-pref-height: 432px;
+	-fx-max-width: 350px;
+	-fx-max-height: 432px;
+	-fx-border-radius: 12px;
+	-fx-border-width: 5px;
+	-fx-background-radius: 10px;
+	-fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.9), 10, 0, 0, 0);
+}
+
+#open{
+	-fx-border-radius: 12px;
+	-fx-border-width: 5px;
+	-fx-background-radius: 10px;
+	-fx-pref-width: 500px;
+	-fx-font-weight: bold;
+}
+
+#detailsLabel{
+	-fx-font-size: 1.3em;
+	-fx-padding: 5px 0px 5px 10px;
+	
+}
+#detailsText{
+	-fx-font-size: 1.3em;
+	-fx-alignment: top-left;
+	-fx-padding: 5px 0px 5px 5px;
+	-fx-pref-width: 260px;
+}
+
+#detailsLabel Label{
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+
+#detailsText Label{
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+
+#loc{
+	-fx-font-weight: bold;
+	-fx-max-width: 330px;
+	-fx-padding: 5px 0px;
+}
+
+/*Progress*/
+
+.progress-bar{
+	-fx-control-inner-background: #202020;
+	-fx-accent: #49d151;
+	-fx-pref-width: 950px;
+	-fx-pref-height: 45px;
+	-fx-padding: 10 0 10 0;
+	-fx-text-box-border: #282828;
+	-fx-shadow-highlight-color: transparent;
+}
+
+.progress-bar > .bar, .progress-bar > .track {
+    -fx-background-insets: 2;
+    -fx-background-radius: 10;  
+}
+
+#progress{
+	-fx-text-fill: white;
+	-fx-font-size: 1.4em;
+}
+
+/*Components*/
+#componentHbox Button{
+	-fx-pref-width: 70px
+}
+
+#stack{
+	-fx-background-color: #202020, transparent;
+	-fx-border-radius: 12px;
+	-fx-border-width: 5px;
+	-fx-background-radius: 10px;
+	-fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.9), 10, 0, 0, 0);
+}
+
+#stack Label{
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-size: 1.3em;
+}
+
+/*Output*/
+#outputBorder{
+	-fx-background-color: #202020;
+	-fx-border-radius: 12px;
+	-fx-border-width: 5px;
+	-fx-background-radius: 10px;
+	-fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.9), 10, 0, 0, 0);
+}
+
+/*Components*/
+#strikethrough .text{
+	-fx-strikethrough: true
+}
+
+RadioButton{
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-size: 1.3em;
+	-fx-padding: 5 0 0 0;
+}
+
+.radio-button .dot {
+    -fx-background-radius: 5px;
+    -fx-padding: 4px;
+}
+
+#spinner{
+	-fx-max-width: 50;
+}
+
+.spinner{
+	-fx-max-width: 40;
+}
+
+.spinner .text-field{
+	-fx-padding: 4 1 4 2;
+	-fx-font-size: 15;
+	-fx-alignment: center
+}
+
+.spinner .increment-arrow-button { 
+    -fx-padding: 1 4 1 4; /*caspian.css values are 4 8 4 8 */
+}
+.spinner .decrement-arrow-button {    
+    -fx-padding: 1 4 1 4; /*caspian.css values are 3 8 6 8 */
+}
+
+.slider .axis { 
+	-fx-tick-label-fill: white;
+}
+
+#mergeLV{
+	-fx-background-color: #303030;
+	-fx-background-radius: 10px;
+	-fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.9), 10, 0, 0, 0);
+}
+
+#mergeLV .scroll-bar{
+	-fx-background-color: #282828;
+	-fx-background-radius: 10px;
+}
+
+#mergeLV .list-cell {
+	-fx-background-color: transparent;
+	-fx-pref-height: 30px;
+}
+
+#mergeLV .list-cell:odd {
+    -fx-background-color: #404040
+}
+
+.scroll-bar .thumb{
+	-fx-background-color: #878787;
+	-fx-background-radius: 20px;
+}
+
+/*crop */
+#crop .text-field{
+	-fx-max-width: 45;
+}
+#crop #fileName{
+	-fx-max-width: 150;
+	-fx-min-height: 25;
+}
+
+.check-box {
+	-fx-text-fill: white;
+    -fx-font-size: 1.3em;
+    -fx-font-weight: bold;
+}
+
+/*Scroll pane scroll */
+#scrollPane .scroll-bar:vertical{
+	-fx-background-color:transparent;
+}
+
+
+
+#scrollPane .scroll-bar:vertical .track{
+	-fx-background-color:transparent;
+	-fx-border-color:transparent;
+	-fx-background-radius: 0em;
+	-fx-border-radius:2em;
+}
+
+#scrollPane .scroll-bar:vertical .increment-button , 
+#scrollPane .scroll-bar:vertical .decrement-button{
+	-fx-background-color:transparent;
+	-fx-background-radius: 0em;
+	-fx-padding:0 0 0 0;
+}
+
+#scrollPane .scroll-bar:vertical .increment-button .increment-arrow , 
+#scrollPane .scroll-bar:vertical .decrement-button .decrement-arrow{
+	-fx-background-color:transparent;
+}
+
+#scrollPane .scroll-bar .increment-button ,
+#scrollPane .scroll-bar .decrement-button{
+	-fx-background-color:red;
+	-fx-shape: " ";	
+	-fx-padding:0;
+}
+
+#scrollPane .scroll-bar:vertical .thumb{
+	-fx-background-color:derive(black,90%);
+	-fx-background-insets: 1, 0, 0;
+	-fx-background-radius: 2em;
+}
